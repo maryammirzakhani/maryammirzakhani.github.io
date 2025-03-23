@@ -4,16 +4,20 @@ title: About
 description: 
 ---
 
-<div style="display: flex; align-items: center; width: 100%;">
-    <img src="images/maryam.jpg" alt="Maryam Mirzakhani" style="width: 400px; height: auto; margin-right: 30px; flex-shrink: 0;">
+<!-- Responsive container -->
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start; width: 100%; gap: 20px;">
 
-    <div style="max-width: 1000px; font-size: 18px; line-height: 1.6; flex-grow: 1;">
-        <!-- Title is left-aligned -->
-        <p style="margin: 0; text-align: left; font-size: 24px; font-weight: bold;">
-            Maryam Mirzakhani:  Mathematical Pioneer
+    <!-- Responsive image -->
+    <img src="images/maryam.jpg" alt="Maryam Mirzakhani"
+         style="max-width: 100%; height: auto; flex: 1 1 300px; min-width: 250px;">
+
+    <!-- Responsive text block -->
+    <div style="flex: 1 1 300px; max-width: 1000px; font-size: 18px; line-height: 1.6;">
+        <p style="margin: 0 0 10px 0; text-align: left; font-size: 24px; font-weight: bold;">
+            Maryam Mirzakhani: Mathematical Pioneer
         </p>
 
-        <p style="margin: 10px 0 0 0; text-align: justify;">
+        <p style="margin: 0; text-align: justify;">
             Maryam Mirzakhani (1977–2017) was an Iranian mathematician known for her groundbreaking work in the fields 
             of geometry and dynamical systems. She made history as the first woman to win the 
             <strong>Fields Medal</strong>, the most prestigious award in mathematics. Her research focused on the 

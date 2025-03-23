@@ -6,7 +6,7 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  This website, created by Hossein Kamyab, serves as a showcase for designing academic websites,demonstrating how to present research and professional achievements effectively.It was developed in honor of Maryam Mirzakhani, the renowned Persian mathematician and Fields Medalist, to highlight best practices in academic web design while celebrating her lasting contributions to mathematics
+  This website, created by Hossein Kamyab, showcases effective academic web design and honors Maryam Mirzakhani, the celebrated Persian mathematician and Fields Medalist.
 
 # Build settings
 
@@ -18,9 +18,9 @@ theme: minima
 # add a line comment on "theme: minima" above.
 #remote_theme: jekyll/minima
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+plugins: []
+  # - jekyll-feed
+  # - jekyll-seo-tag
 
 # Minima specific settings, which are only available from Minima 3.0 onward.
 minima:
